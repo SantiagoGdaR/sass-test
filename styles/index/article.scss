@@ -1,0 +1,25 @@
+@import '../common/_variables.scss';
+@import '../common/_functions.scss';
+.news-article{		
+	header{
+		background-color: $article-header-color; 
+		padding: 10px 0;
+		color: $site-article-font-color;
+		@include border-radius(14px);
+		margin: 10px;
+		@media (max-width: $breakpoint-phone) {  
+			background-color: $article-header-color-mobile; 
+			&:hover{
+				background-color: $article-header-color; 				
+			}
+		}
+		h2 {
+			padding: 0 10px;
+		}
+	}
+	p{
+		background-color: $article-p-color; 		 
+		padding: 10px;
+		color: $site-article-font-color;
+	}
+}

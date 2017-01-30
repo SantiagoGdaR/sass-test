@@ -1,0 +1,22 @@
+.news-article header {
+  background-color: #CF649A;
+  padding: 10px 0;
+  color: #000;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  border-radius: 14px;
+  margin: 10px; }
+  @media (max-width: 767px) {
+    .news-article header {
+      background-color: #FFF; }
+      .news-article header:hover {
+        background-color: #CF649A; } }
+  .news-article header h2 {
+    padding: 0 10px; }
+.news-article p {
+  background-color: #EDEDED;
+  padding: 10px;
+  color: #000; }
+
+/*# sourceMappingURL=article.css.map */

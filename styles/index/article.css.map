@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGC,oBAAM;EACL,gBAAgB,ECCK,OAAO;EDA5B,OAAO,EAAE,MAAM;EACf,KAAK,ECHmB,IAAI;ECG5B,qBAAqB,EFCE,IAAI;EEAxB,kBAAkB,EFAE,IAAI;EECvB,iBAAiB,EFDE,IAAI;EEEnB,aAAa,EFFE,IAAI;EAC3B,MAAM,EAAE,IAAI;EACZ,yBAAsC;IANvC,oBAAM;MAOJ,gBAAgB,ECHW,IAAI;MDI/B,0BAAO;QACN,gBAAgB,ECPG,OAAO;EDU5B,uBAAG;IACF,OAAO,EAAE,MAAM;AAGjB,eAAC;EACA,gBAAgB,ECdA,OAAO;EDevB,OAAO,EAAE,IAAI;EACb,KAAK,ECnBmB,IAAI",
+"sources": ["article.scss","../common/_variables.scss","../common/_functions.scss"],
+"names": [],
+"file": "article.css"
+}

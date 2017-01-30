@@ -1,0 +1,13 @@
+@import '../common/_variables.scss';
+@import '../common/_functions.scss';
+@import '../common/_global-classes.scss';
+body{
+	@extend .reset;
+	font-family: $site-font;
+	color: $site-main-font-color;
+	@include remove-margin-and-padding();
+    .menu-header{	 
+		background-color: $menu-color;		
+		padding: 20px 0;
+	}
+}
